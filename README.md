@@ -1,7 +1,4 @@
 # breakout
 
-Let's test something.
+* https://jonnu.github.io/breakout/
 
-<canvas id="test" />
-
-End of test.
