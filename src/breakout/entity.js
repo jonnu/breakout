@@ -7,8 +7,5 @@ define("breakout/entity", [ "breakout/collision/manager" ], function (CollisionM
         this.y = y;
     };
 
-    Entity.prototype.onCollisionWith = function (entity, callback) {
-    };
-
     return Entity;
 });

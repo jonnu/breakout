@@ -49,5 +49,8 @@ define("breakout/entity/collidable", [ "breakout/entity", "breakout/collision/ma
         // context.closePath();
     }
 
+    Collider.prototype.onCollisionWith = function (collider, callback) {
+    };
+
     return Collider;
 });
