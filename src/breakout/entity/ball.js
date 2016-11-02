@@ -1,10 +1,8 @@
 define("breakout/entity/ball", [ "breakout/entity" ], function (Entity) {
 
-    var Ball = function (x, y, size, collider) {
+    var Ball = function (x, y, radius, collider) {
 
-        // this.x = x;
-        // this.y = y;
-        this.radius = size;
+        this.radius = radius;
         this.dx = 2;
         this.dy = -2;
 
@@ -14,7 +12,6 @@ define("breakout/entity/ball", [ "breakout/entity" ], function (Entity) {
         this.collider.reposition(x, y, this.radius * 2, this.radius * 2);
 
         //collider.entity = this;
-        console.log("Ball created", this);
     };
 
     Ball.prototype             = Object.create(Entity.prototype);

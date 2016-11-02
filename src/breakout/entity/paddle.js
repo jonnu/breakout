@@ -23,7 +23,7 @@ define("breakout/entity/paddle", [ "breakout/entity" ], function (Entity) {
     Paddle.prototype.render = function (canvas, context) {
         context.beginPath();
         context.rect(this.x, this.y, this.w, this.h);
-        context.fillStyle = "#000000";
+        context.fillStyle = "#0095DD";
         context.fill();
         context.closePath();
 
