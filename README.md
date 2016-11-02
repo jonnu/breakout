@@ -1,6 +1,4 @@
-# breakout
-
-## A javascript implementation of the popular arcade game "Breakout".
+## javascript implementation of the popular arcade game "Breakout".
 
 * https://jonnu.github.io/breakout/
 
